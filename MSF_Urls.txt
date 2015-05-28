@@ -1,0 +1,44 @@
+MSF1:
+
+Prod  Url: https://apac1.mobile13.cp.thomsonreuters.com/msf1.0/data/
+Alpha Url: https://amers1.mobile13.cp.icp2.mpp.ime.reuters.com/msf1.0/data/
+Beta  Url: https://amers1.mobile13.cp.reutest.com/msf1.0/data/
+Dev   Url: http://10.206.20.82/msf1.0/data/
+Public Url: https://amers2.mobile13.cp.thomsonreuters.com/msf1.0/data/
+
+MSF2:
+
+Old:
+http://10.206.20.198:8080/msf
+http://10.206.21.200:8080/msf
+
+New:
+http://10.206.22.215/msf [cloud cluster stable]
+http://10.206.23.186:8080/msf  [cloud cluster unstable]
+https://amers1.proxy.cp.reutest.com/msf  [beta url]
+https://amers1.msf2.cp.reutest.com/msf [beta url]
+
+http://10.206.23.186:8080/msf/mngt/
+http://10.206.23.186:8080/msf/help/
+http://amers1.mobile13-07.cp.icp2.mpp.ime.reuters.com/msf  [alpha]
+http://10.206.20.82:8080/msf/mobile [beta]
+https://amers1.msf2.cp.ppe.ntc.ime.reuters.com/msf [beta]
+https://apac1.msf2.cp.thomsonreuters.com
+https://apac1.proxy.cp.thomsonreuters.com
+https://amers1.proxy.cp.icp2.mpp.reutest.com
+
+[msf2 routes]
+/msf/mngt
+/msf/help
+/msf/mobile (for mobile specific dps)
+/msf/wamp (for websocket)
+/msf/auth (for login)
+/msf/fwd [Used for Article]
+/msf/template/html [Used for HtmlTemplate]
+/msf/template/generic [For generic template]
+/msf/binary [Used for ResearchDocument, ResearchFirstPagePreview etc.]
+
+
+https://thehub.thomsonreuters.com/docs/DOC-759582 [MSF2 Beta&Prod links]
+
+

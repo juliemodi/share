@@ -1,0 +1,6 @@
+Languages used in Technic2.0:
+
+EikonIphone-us-en.js:  English
+EikonIphone-ja-jp.js: Japanese
+EikonIphone-zh-cn.js: Chinese Simplified
+EikonIphone-zh-tw.js: Chinese Traditional

@@ -1,0 +1,18 @@
+iOS build process:
+
+Create Technic tag from below(branch) url:
+https://sami.cdt.int.thomsonreuters.com/svn/mobility_html/branches/mobility_html_3.3
+
+Right click on branch folder - TortoiseSVN -> click on Branch/tag -> give "to url" with latest tag number and select "head revision" then click OK.
+
+Checkout iOS trunk code in your system using below url:
+https://sami.cdt.int.thomsonreuters.com/svn/mobility_eikonipad/trunk/Eikon
+
+Go to "trunk\WebContent" folder right click on properties -> SubVersion -> properties -> change tag version to new one and commit the changes in SVN.
+
+
+URL for build:
+http://jenkinsmobile.int.thomsonreuters.com/view/Eikon%20-%20iOS/job/Eikon-iOS-Nightly-Build/
+
+Left hand side there is a option to click on "Build Now" and you can see progress indicator in "Build History" section. Build might take 30 to 45 minutes to complete.
+
